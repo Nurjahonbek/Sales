@@ -116,7 +116,9 @@ body{
     margin-right: 17px;
 }
 
-
+.inform{
+    margin-bottom: 40px;
+}
 
 .inform h1{
     font-size: 24px;
@@ -147,4 +149,57 @@ body{
 }
 
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 50px;
+}
 
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 12px 15px;
+    font-size: 16px;
+}
+td{
+    opacity: 0.6;
+}
+th {
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody tr td:nth-child(2){
+    color: #0B63F8;
+}
+
+
+
+.gif{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+ }
+ 
+ .gif{
+    animation:vanish 4s forwards ;
+ }
+ @keyframes vanish {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+ }
